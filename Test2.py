@@ -13,10 +13,11 @@ def testFunc():
     pairXpath = '/html/body/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/div/div'
     intervalXpath = '//*[@id="header-toolbar-intervals"]/div/div/div'
     wantedIntervalXpath = '//*[@id="overlap-manager-root"]/div/span/div[1]/div/div/div/div[12]/div/div[1]/div'
-    openCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[1]/div[1]/div[1]/div[2]/div/div[2]/div[2]'
-    highCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[1]/div[1]/div[1]/div[2]/div/div[3]/div[2]'
-    lowCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[1]/div[1]/div[1]/div[2]/div/div[4]/div[2]'
-    closeCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[1]/div[1]/div[1]/div[2]/div/div[5]/div[2]'
+    openCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[2]/div[1]/div[1]/div[2]/div/div[2]/div[2]'
+    highCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[2]/div[1]/div[1]/div[2]/div/div[3]/div[2]'
+    lowCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[2]/div[1]/div[1]/div[2]/div/div[4]/div[2]'
+    closeCandle = '/html/body/div[2]/div[1]/div[2]/div[1]/div/table/tr[1]/td[2]/div/div[2]/div[1]/div[1]/div[2]/div/div[5]/div[2]'
+   
 
     driver = webdriver.Chrome(executable_path="./chromedriver/chromedriver.exe")
     driver.get('https://www.tradingview.com/chart')
